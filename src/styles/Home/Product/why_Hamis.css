@@ -1,0 +1,18 @@
+.why_hamis_details_div{
+    display: flex;
+    justify-content: space-around;
+}
+.why_hamis_details{
+    text-align: center;
+    color: var(--main-red-color);
+    font-family: var(--inter-font-family);
+
+}
+.why_hamis_details_num{
+    font-size: 60px;
+    font-weight: bolder;
+}
+.why_hamis_details_texts{
+    font-size: 28px;
+    font-weight: bold;
+}

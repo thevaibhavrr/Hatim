@@ -1,0 +1,14 @@
+.main_product_div_for_bg {
+    background-image: 
+      url("../../../Images/Home/bgimage1.png"), 
+      url("../../../Images/Home/bgimage2.png"); 
+    background-size: 30% auto, 100% auto;
+
+    background-position:
+      top 450px left -50px , 
+      bottom; 
+    background-repeat: no-repeat;
+  }
+
+
+  
