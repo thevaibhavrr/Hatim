@@ -4,7 +4,7 @@
 }
 
 .main_data_tesimonail {
-  background: #ffffff;
+  /* background: #b52929; */
   padding: 110px 70px 30px 70px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
     rgba(0, 0, 0, 0.05) 0px 5px 10px;
@@ -20,12 +20,12 @@
 .testimonail_image_div {
   position: absolute;
   top: 0;
-  border-top: 1px solid rgb(255, 255, 255);
-  border-right: 1px solid rgb(255, 255, 255);
-  border-left: 1px solid rgb(255, 255, 255);
+  /* border-top: 1px solid rgb(216, 209, 209);
+  border-right: 1px solid rgb(193, 139, 139);
+  border-left: 1px solid rgb(255, 255, 255); */
   left: 33%;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
-    rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  /* box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px; */
   border-radius: 30px;
 }
 .testimonial_image {
