@@ -180,6 +180,10 @@
     .footer_message_ul li {
       list-style: none;
       margin: 10px 3px ;
+    }
+    .socail_media_icons_footer_div{
+      display: flex;
       
+      padding: 10px 0px;
     }
   }
