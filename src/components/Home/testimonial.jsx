@@ -22,7 +22,7 @@ function Testimonial() {
     const handleResize = () => {
       const screenWidth = window.innerWidth;
       if (screenWidth <= 500) {
-        setSlidesPerView(1.2);
+        setSlidesPerView(1.1);
       } else if (screenWidth <= 900) {
         setSlidesPerView(1.5);
       } else if (screenWidth <= 1200) {
