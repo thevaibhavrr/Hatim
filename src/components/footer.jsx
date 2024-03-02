@@ -10,8 +10,12 @@ import Instagram from "../Images/footer/Instagram Circle.png";
 import TwitterX from "../Images/footer/TwitterX.png";
 import YouTube from "../Images/footer/YouTube.png";
 import { Link } from "react-router-dom";
+import { motion } from 'framer-motion';
+
 
 function Footer() {
+  const list = { hidden: { opacity: 0 } }
+const item = { hidden: { x: 10, opacity: 0 } }
   return (
     <>
       <div className="first_footer_div_gry">
@@ -65,34 +69,34 @@ function Footer() {
           </div>
           {/* message */}
           <div className="footer_message">
-            <ul className="footer_message_ul">
-              <li>
+            <motion.ul animate="hidden" variants={list} className="footer_message_ul">
+              <motion.li variants={item} >
                 {" "}
                 <h5 className="footer_hading"> Direct Links</h5>
-              </li>
-              <li className="footer_options">
+              </motion.li>
+              <motion.li variants={item}  className="footer_options">
                 <Link to={"/"} className=" css-for-link-tag">
                   <li>Home</li>
                 </Link>
-              </li>
-              <li className="footer_options">
+              </motion.li>
+              <motion.li variants={item}  className="footer_options">
                 <Link to={"/product"} className=" css-for-link-tag">
                   <li>Products</li>
                 </Link>
-              </li>
-              <li className="footer_options">
+              </motion.li>
+              <motion.li variants={item}  className="footer_options">
                 {" "}
                 <Link to={"/contact-us"} className=" css-for-link-tag">
                   <li>Contact Us</li>
                 </Link>
-              </li>
-              <li className="footer_options">
+              </motion.li>
+              <motion.li variants={item}  className="footer_options">
                 {" "}
                 <Link to={"/about-us"} className=" css-for-link-tag">
                   <li>About Us</li>
                 </Link>
-              </li>
-            </ul>
+              </motion.li>
+            </motion.ul>
           </div>
           {/* adress */}
           <div className="footer_address">

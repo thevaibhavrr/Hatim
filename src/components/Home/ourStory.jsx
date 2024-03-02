@@ -5,8 +5,22 @@ function OurStory() {
     <>
       <div className="main_Our_story_div">
         <div className="main_Our_story_div_text">
-          <div className="main_Our_story_div_hading">Our Story</div>
-          <div className="main_Our_story_div_message" >
+          <div
+            className="main_Our_story_div_hading"
+            data-aos="zoom-in"
+            data-aos-offset="200"
+            data-aos-delay="1000"
+            data-aos-duration="1000"
+          >
+            Our Story
+          </div>
+          <div
+            className="main_Our_story_div_message"
+            data-aos="zoom-in"
+            data-aos-offset="200"
+            data-aos-delay="1000"
+            data-aos-duration="1000"
+          >
             Hamis Biscuits was founded in the years 1990. we firmly stand to
             provide uncompromised taste and quality. we have introduced
             different ranges of biscuits but what remains constant and intact is
@@ -18,7 +32,7 @@ function OurStory() {
             developing innovative products that reflect evolving consumer
             preferences. We believe that innovation is key to our success
           </div>
-          <div className="know_more_button" >Know more</div>
+          <div className="know_more_button">Know more</div>
         </div>
       </div>
     </>

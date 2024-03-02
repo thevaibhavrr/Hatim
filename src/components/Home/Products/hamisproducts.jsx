@@ -1,5 +1,7 @@
 import "../../../styles/Home/Product/hamisproducts.css";
 import React from "react";
+import { motion } from "framer-motion";
+
 import Bisk1 from "../../../Images/Home/bisk1.png";
 import Bisk2 from "../../../Images/Home/bisk2.png";
 import Bisk3 from "../../../Images/Home/bisk3.png";
@@ -10,10 +12,24 @@ function Hamisproducts() {
       <div className=" main_hamis_product_div">
         {/* heading */}
         <div>
-          <div className="main_heading main_product_text">Product</div>
+          <div
+            className="main_heading main_product_text"
+            data-aos="zoom-in"
+            data-aos-offset="200"
+            data-aos-delay="1000"
+            data-aos-duration="1000"
+          >
+            Product
+          </div>
         </div>
         {/* products */}
-        <div className="main_product_image">
+        <div
+          className="main_product_image"
+          data-aos="zoom-in"
+          data-aos-offset="200"
+          data-aos-delay="1000"
+          data-aos-duration="1000"
+        >
           <div className="bisk_product_div">
             {/* 1 */}
             <div className="bisk_product_divs bisk_product_top_left ">
