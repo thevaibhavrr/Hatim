@@ -32,29 +32,24 @@
   width: 80%;
   border-radius: 20px;
 }
-.desing_testimonial_image{
+.desing_testimonial_image {
   width: 100%;
 }
-.desing_testimonial_image_div{
+.desing_testimonial_image_div {
   width: 80%;
 }
 
-.message_testimonial_image{
-  /* position: absolute; */
-}
 
 /* text */
-.testimonail_review_text_div{
-    border-bottom: 4px solid black;
-    width: 50%;
-    
+.testimonail_review_text_div {
+  border-bottom: 4px solid black;
+  width: 50%;
 }
 .testimonail_review_text {
   color: black;
   font-size: 50px;
   font-weight: bold;
   font-family: var(--poppins-font-family);
-
 }
 
 .testimonail_review_message {
@@ -66,25 +61,205 @@
   font-family: var(--inter-font-family);
   position: relative;
 }
-.message_testimonial_first_image_div{
+.message_testimonial_first_image_div {
   position: absolute;
   transform: skew(-20deg);
-left: 0;
-top: -50px;
+  left: 0;
+  top: -50px;
 }
-.message_testimonial_last_image_div{
+.message_testimonial_last_image_div {
   position: absolute;
   transform: skew(-20deg);
   bottom: -30px;
   right: 0;
 }
-.message_testimonial_image{
+.message_testimonial_image {
   width: 70px;
-  }
+}
 .testimonail_review_message .text {
   transform: skew(-20deg);
 }
-.testimonail_review_user_name{
+.testimonail_review_user_name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+@media (max-width:1200px) {
+  .main_parent_div_of_testimonial {
+    padding: 80px 10px 10px 10px;
+  }
+  
+  .main_data_tesimonail {
+    padding: 110px 55px 30px 55px;
+    gap: 18px;
+  }
+  /* image */
+  .testimonail_image_div {
+    left: 33%;
+  }
+  .testimonial_image {
+    width: 80%;
+    border-radius: 20px;
+  }
+  .desing_testimonial_image {
+    width: 100%;
+  }
+  .desing_testimonial_image_div {
+    width: 80%;
+  }
+  
+  
+  /* text */
+  .testimonail_review_text_div {
+    border-bottom: 4px solid black;
+    width: 50%;
+  }
+  .testimonail_review_text {
+    color: black;
+    font-size: 40px;
+  }
+  
+  .testimonail_review_message {
+    padding: 20px 30px;
+    transform: skew(20deg);
+    font-size: 17px;
+  }
+  .message_testimonial_first_image_div {
+    left: 0;
+    top: -50px;
+  }
+  .message_testimonial_last_image_div {
+    bottom: -30px;
+    right: 0;
+  }
+  .message_testimonial_image {
+    width: 70px;
+  }
+  .testimonail_review_message .text {
+    transform: skew(-20deg);
+  }
+  .testimonail_review_user_name {
     font-size: 20px;
     font-weight: bold;
+  }
+  
+}
+
+
+@media (max-width:800px) {
+  .main_parent_div_of_testimonial {
+    padding: 80px 10px 10px 10px;
+  }
+  
+  .main_data_tesimonail {
+    padding: 110px 50px 20px 50px;
+    gap: 16px;
+  }
+  /* image */
+  .testimonail_image_div {
+    left: 33%;
+  }
+  .testimonial_image {
+    width: 80%;
+    border-radius: 20px;
+  }
+  .desing_testimonial_image {
+    width: 100%;
+  }
+  .desing_testimonial_image_div {
+    width: 80%;
+  }
+  /* text */
+  .testimonail_review_text_div {
+    border-bottom: 4px solid black;
+    width: 50%;
+  }
+  .testimonail_review_text {
+    color: black;
+    font-size: 35px;
+  }
+  
+  .testimonail_review_message {
+    padding: 15px 20px;
+    transform: skew(20deg);
+    font-size: 16px;
+  }
+  .message_testimonial_first_image_div {
+    left: 0;
+    top: -50px;
+  }
+  .message_testimonial_last_image_div {
+    bottom: -30px;
+    right: 0;
+  }
+  .message_testimonial_image {
+    width: 70px;
+  }
+  .testimonail_review_message .text {
+    transform: skew(-20deg);
+  }
+  .testimonail_review_user_name {
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+
+
+@media (max-width:500px) {
+  .main_parent_div_of_testimonial {
+    padding: 45px 10px 10px 10px;
+  }
+  
+  .main_data_tesimonail {
+    padding: 110px 50px 20px 50px;
+    gap: 16px;
+  }
+  /* image */
+  .testimonail_image_div {
+    left: 20%;
+  }
+  .testimonial_image {
+    width: 60%;
+    border-radius: 20px;
+  }
+  .desing_testimonial_image {
+    width: 100%;
+  }
+  .desing_testimonial_image_div {
+    width: 80%;
+  }
+  /* text */
+  .testimonail_review_text_div {
+    border-bottom: 4px solid black;
+    width: 50%;
+  }
+  .testimonail_review_text {
+    color: black;
+    font-size: 30px;
+  }
+  
+  .testimonail_review_message {
+    padding: 15px 15px;
+    transform: skew(10deg);
+    font-size: 14px;
+  }
+  .message_testimonial_first_image_div {
+    left: 0;
+    top: -40px;
+  }
+  .message_testimonial_last_image_div {
+    bottom: -25px;
+    right: 0;
+  }
+  .message_testimonial_image {
+    width: 60px;
+  }
+  .testimonail_review_message .text {
+    transform: skew(-10deg);
+  }
+  .testimonail_review_user_name {
+    font-size: 20px;
+    font-weight: bold;
+  }
 }

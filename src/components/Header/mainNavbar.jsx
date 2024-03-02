@@ -6,7 +6,7 @@ function MainNavbar() {
     <>
       <div className="main_navbar_div">
           <div className="main_navbar_li" >ABOUT US</div>
-          <div className="main_navbar_li" >HOME</div>
+          <div className="main_navbar_li" >Home</div>
           <div className="" >
             <img src={Icon} alt="logo" className="navbar_logo"  />
           </div>

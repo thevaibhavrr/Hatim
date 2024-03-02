@@ -16,3 +16,26 @@
     font-size: 28px;
     font-weight: bold;
 }
+
+@media (max-width:800px) {
+    .why_hamis_details_num{
+        font-size: 50px;
+    }
+    .why_hamis_details_texts{
+        font-size: 25px;
+    }
+}
+@media (max-width:500px) {
+    .why_hamis_details_div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 40px;
+    }
+    .why_hamis_details_num{
+        font-size: 50px;
+    }
+    .why_hamis_details_texts{
+        font-size: 25px;
+    }
+}

@@ -44,3 +44,41 @@ code {
   text-decoration: none; 
   color:var(--main-white-color);
  }
+
+
+ @media (max-width:1030px) {
+  .main_padding {
+    padding: 25px 50px;
+  }
+  .main_heading {
+    font-size: 40px;
+    padding: 30px;
+  }
+ }
+ @media (max-width:900px) {
+  .main_padding {
+    padding: 22px 30px;
+  }
+  .main_heading {
+    font-size: 33px;
+    padding: 25px;
+  }
+ }
+ @media (max-width:800px) {
+  .main_padding {
+    padding: 20px 20px;
+  }
+  .main_heading {
+    font-size: 28px;
+    padding: 28px;
+  }
+ }
+ @media (max-width:500px) {
+  .main_padding {
+    padding: 15px 10px;
+  }
+  .main_heading {
+    font-size: 28px;
+    padding: 28px;
+  }
+ }

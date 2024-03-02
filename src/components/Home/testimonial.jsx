@@ -24,6 +24,8 @@ function Testimonial() {
       if (screenWidth <= 500) {
         setSlidesPerView(1.2);
       } else if (screenWidth <= 900) {
+        setSlidesPerView(1.5);
+      } else if (screenWidth <= 1200) {
         setSlidesPerView(1.7);
       } else {
         setSlidesPerView(2.2);
@@ -85,7 +87,12 @@ function Testimonial() {
               className="main_slider"
             >
               {/* main_div */}
-              <div className="main_parent_div_of_testimonial">
+              <div className="main_parent_div_of_testimonial"
+               style={{
+                transform: `scale(${activeIndex === index ? 1 : 0.8})`,
+                transition: "transform 0.3s ease-in-out",
+              }}
+              >
                 {/* data */}
                 <div className="main_data_tesimonail">
                   {/* image */}
@@ -103,21 +110,21 @@ function Testimonial() {
                   <div className="testimonail_review_message_parent">
                     {/* text */}
                     <div className="testimonail_review_message">
-                    <div className="message_testimonial_first_image_div">
-                      <img
-                        src={MessageFirstImage}
-                        alt="desing"
-                        className="message_testimonial_image"
-                      />
-                    </div>
+                      <div className="message_testimonial_first_image_div">
+                        <img
+                          src={MessageFirstImage}
+                          alt="desing"
+                          className="message_testimonial_image"
+                        />
+                      </div>
                       <div className="text">{testimonial.message}</div>
                       <div className="message_testimonial_last_image_div">
-                      <img
-                        src={MessageSecondImage}
-                        alt="desing"
-                        className="message_testimonial_image"
-                      />
-                    </div>
+                        <img
+                          src={MessageSecondImage}
+                          alt="desing"
+                          className="message_testimonial_image"
+                        />
+                      </div>
                     </div>
                   </div>
                   {/* user name */}

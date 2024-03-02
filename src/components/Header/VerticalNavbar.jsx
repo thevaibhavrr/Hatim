@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "../../styles/Header/verticalNavbar.css";
-// import mainIcon from "../Images/navbar/main_icon.png";
+import mainIcon from "../../Images/navbar/hamis-Logo 1.png";
+
 
 function SmallNavbar() {
   const [showVerticalNavbar, setShowVerticalNavbar] = useState(false);
@@ -32,7 +33,7 @@ function SmallNavbar() {
           >
             <div className="">
               <Link to={"/"} className="css-for-link-tag">
-                {/* <img src={mainIcon} alt="" srcset="" className="header-logo" /> */}
+                <img src={mainIcon} alt="" srcset="" className="header-logo header_logo_for_small_screen" />
               </Link>
             </div>
             <div className="" onClick={toggleVerticalNavbar}>
@@ -62,16 +63,13 @@ function SmallNavbar() {
                 data-aos-mirror="true"
               >
                 <Link to={"/"} className="css-for-link-tag">
-                  <li>Home</li>
+                  <li>ABOUT US</li>
                 </Link>
                 <Link to={"/about-us"} className="css-for-link-tag">
-                  <li>About Us</li>
+                  <li>HOME</li>
                 </Link>
                 <Link to={"/product"} className="css-for-link-tag">
-                  <li>Products</li>
-                </Link>
-                <Link to={"/infrastructure"} className="css-for-link-tag">
-                  <li>Infrastructure</li>
+                  <li>PRODUCTS</li>
                 </Link>
                 <Link to={"/contact-us"} className="css-for-link-tag">
                   <li>Contact Us</li>

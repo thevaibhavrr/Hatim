@@ -1,7 +1,7 @@
 .navbar_for_small_screen {
     z-index: 2;
     position: relative;
-    background-color: #fd6900d0;
+    background-color: var(--main-white-color);
     animation: fadeIn 0.9s ease-in-out;
   }
   @keyframes fadeIn {
@@ -13,14 +13,16 @@
     }
   }
   
-  
+  .header_logo_for_small_screen{
+    width: 100px;
+  }
   .vertical-navbar {
     position: absolute;
     top: 74px;
     right: 0;
     height: 94vh;
     width: 200px;
-    background-color: #fd6900d0;
+    background-color: var(--main-red-color);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     padding-top: 20px;
     font-family: "Arial", sans-serif;
