@@ -87,21 +87,14 @@ function Testimonial() {
               className="main_slider"
             >
               {/* main_div */}
-              <div
-                className="main_parent_div_of_testimonial"
-                style={{
-                  transform: `scale(${activeIndex === index ? 1 : 0.8})`,
-                  transition: "transform 0.3s ease-in-out",
-                }}
+              <div className="main_parent_div_of_testimonial"
+               style={{
+                transform: `scale(${activeIndex === index ? 1 : 0.8})`,
+                transition: "transform 0.3s ease-in-out",
+              }}
               >
                 {/* data */}
-                <div
-                  className="main_data_tesimonail"
-                  data-aos="zoom-in"
-                  data-aos-offset="200"
-                  data-aos-delay="1000"
-                  data-aos-duration="1000"
-                >
+                <div className="main_data_tesimonail">
                   {/* image */}
                   <div className="testimonail_image_div">
                     <img

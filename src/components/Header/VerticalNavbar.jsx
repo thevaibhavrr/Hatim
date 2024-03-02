@@ -23,7 +23,7 @@ function SmallNavbar() {
         <nav className="navbar navbar-expand-lg px-2">
           <div
             className="d-flex justify-content-around w-100"
-            data-aos="zoom-out"
+            data-aos="zoom-in"
             data-aos-offset="200"
             data-aos-delay="1000"
             data-aos-duration="5000"
@@ -55,7 +55,7 @@ function SmallNavbar() {
             <div className="vertical-navbar">
               <ul
                 className="navbar_ul_for_small_screen"
-                data-aos="zoom-out"
+                data-aos="zoom-in"
                 data-aos-offset="200"
                 data-aos-delay="100"
                 data-aos-duration="500"

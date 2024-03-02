@@ -7,7 +7,7 @@ function WhyHamis() {
       {/* heading */}
       <div
         className="main_heading"
-        data-aos="zoom-out"
+        data-aos="zoom-in"
         data-aos-offset="200"
         data-aos-delay="1000"
         data-aos-duration="1000"
