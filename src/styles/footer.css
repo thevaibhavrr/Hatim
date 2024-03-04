@@ -133,7 +133,7 @@
     }
     
     .main_footer_div {
-      background: var(--orange-color-header-footer);
+      /* background: var(--orange-color-header-footer); */
       padding: 30px 20px;
       display: flex;
       flex-direction: column;
