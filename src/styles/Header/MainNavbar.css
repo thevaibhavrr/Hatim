@@ -12,6 +12,7 @@
   width: 100%;
   align-items: center;
 }
+
 .main_navbar_li {
   list-style: none;
   color: var(--main-red-color);

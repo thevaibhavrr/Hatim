@@ -1,4 +1,4 @@
-.bisk_images {
+/* .bisk_images {
    
     animation: bounce-in 1s ease forwards;
   
@@ -23,8 +23,11 @@
       transform: translateY(-20px);
     }
   } 
-  
-   
+   */
+
+  .main_product_text{
+    padding: 40px;
+  } 
   
 .main_product_image{
     display: flex;

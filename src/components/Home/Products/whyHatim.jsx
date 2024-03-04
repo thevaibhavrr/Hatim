@@ -6,7 +6,7 @@ function WhyHamis() {
     <div className="">
       {/* heading */}
       <div
-        className="main_heading"
+        className="main_heading Why_Hamis_text"
         data-aos="zoom-in"
         data-aos-offset="200"
         data-aos-delay="1000"

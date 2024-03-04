@@ -6,7 +6,9 @@
     text-align: center;
     color: var(--main-red-color);
     font-family: var(--inter-font-family);
-
+}
+.Why_Hamis_text{
+    padding: 40px;
 }
 .why_hamis_details_num{
     font-size: 60px;

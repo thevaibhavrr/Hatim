@@ -66,7 +66,7 @@ function Testimonial() {
   return (
     <div>
       {/* main heading */}
-      <div className="main_heading">Testimonials</div>
+      <div className="main_heading Testimonials_main_heading">Testimonials</div>
       {/* slider */}
       <div className="main_swiper_testimonial">
         <Swiper

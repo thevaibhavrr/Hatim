@@ -29,13 +29,14 @@
     animation: fadeIn 0.5s ease-in-out;
     color: white;
   }
-  
+  .vertical_navbar_Icon_div{
+    padding-right: 30px;
+  }
   
   .toggle_button{
   padding: 0px 10px;
   }
   .navbar_for_small_screen_second {
-  
     display: flex;
     flex-direction: column;
     gap: 20px;
