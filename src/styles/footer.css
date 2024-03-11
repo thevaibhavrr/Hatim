@@ -4,7 +4,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* border-radius: 0px 100px 0px 0px; */
     color: var(--main-white-color);
   }
   .footer_hading {
@@ -138,7 +137,6 @@
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      border-radius: 0px 100px 0px 0px;
       gap: 50px;
     }
     .footer_hading {

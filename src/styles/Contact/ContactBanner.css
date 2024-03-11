@@ -1,0 +1,25 @@
+.main_contgact_us_image {
+  width: 100%;
+  height: 100%;
+}
+.main_contact_us_page_banner {
+  position: relative;
+}
+.main_contact_us_page_banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5); 
+}
+.ContactUs_Text {
+    color: var(--main-red-color);
+  font-size: 80px;
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+}

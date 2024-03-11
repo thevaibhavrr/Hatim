@@ -9,12 +9,11 @@ import LineImage from "../../../Images/About/Line 5.png";
 function CompanyDetails() {
   return (
     <>
-      <div className="">
+      <div className="company_details_top_main_div">
         {/* heading */}
         <div>
-          MR. KULWANT SINGH.
-          <br />
-          FOUNDER & CO
+          <div className="founder_name_div" >MR. KULWANT SINGH.</div>
+          <div>FOUNDER</div>
         </div>
 
         {/* company details section */}
@@ -78,28 +77,28 @@ function CompanyDetails() {
           {/* text */}
           <div className="main_company_details_text_section">
             {/* 1 */}
-            <div className="main_company_details_text_div" >
+            <div className="main_company_details_text_div">
               {/* heading */}
               <div>Certified</div>
               {/* details */}
               <div>Hamis (Pvt) Ltd is ISO 22000-2005 Certification.</div>
             </div>
             {/* 2 */}
-            <div className="main_company_details_text_div" >
+            <div className="main_company_details_text_div">
               {/* heading */}
               <div>High quality</div>
               {/* details */}
               <div>We provides tantalizing and wholesome Biscuits.</div>
             </div>
             {/* 1 */}
-            <div className="main_company_details_text_div" >
+            <div className="main_company_details_text_div">
               {/* heading */}
               <div>CLIENT SATISFACTION</div>
               {/* details */}
               <div>We strive to provide maximum client satisfaction.</div>
             </div>
             {/* 1 */}
-            <div className="main_company_details_text_div" >
+            <div className="main_company_details_text_div">
               {/* heading */}
               <div>QUALITY PRODUCTS</div>
               {/* details */}

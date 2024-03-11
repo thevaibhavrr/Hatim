@@ -1,0 +1,42 @@
+.main_history_div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 100px 0px ;
+}
+.history_conant_div {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 30px;
+}
+
+.history_of_hamis_text{
+    color: var(--main-red-color);
+    font-size: 38px;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    font-family:  var(--alegreya-font-family);
+}
+.history_message{
+    text-align: center;
+  padding: 0px 50px;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  font-family: var(--simonetta-font-family);
+}
+
+
+@media (max-width:500px) {
+    .history_message{
+      padding: 0px 10px;
+    }
+    .history_of_hamis_text{
+        font-size: 28px;
+    }
+}

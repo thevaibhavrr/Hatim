@@ -4,6 +4,13 @@
     padding: 100px;
     /* align-items: center; */
 }
+.company_details_top_main_div{
+    margin-top: 40px;
+}
+/* hading */
+.founder_name_div{
+    font-weight: bold;
+}
 /* images */
 .main_company_details_Image_section{
     display: flex;

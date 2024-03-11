@@ -16,7 +16,9 @@ function MainNavbar() {
           <img src={Icon} alt="logo" className="navbar_logo" />
         </div>
         <div className="main_navbar_li">PRODUCTS</div>
-        <div className="main_navbar_li">CONTACT US</div>
+        <Link to={"/ContactUs"} className="css-for-link-tag-for-header">
+          <div className="main_navbar_li">CONTACT US</div>
+        </Link>
       </div>
     </>
   );

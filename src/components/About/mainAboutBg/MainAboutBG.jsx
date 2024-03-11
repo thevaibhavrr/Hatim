@@ -6,7 +6,7 @@ function MainAboutBG() {
   return (
     <div className='main_padding' >
         <WhoWeAre/>
-        {/* <CompanyDetails/> */}
+        <CompanyDetails/>
     </div>
   )
 }
