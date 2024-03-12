@@ -17,13 +17,13 @@ function ContactUsForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(formData);
-    axios.post('/send-email', formData)
-      .then(res => {
-        console.log(res.data);
-      })
-      .catch(error => {
-        console.error(error);
-      });
+    // axios.post('/send-email', formData)
+    //   .then(res => {
+    //     console.log(res.data);
+    //   })
+    //   .catch(error => {
+    //     console.error(error);
+    //   });
   };
   return (
     <div>
