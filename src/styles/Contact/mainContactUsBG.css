@@ -1,5 +1,9 @@
 .main_contact_us_div{
     padding: 50px 130px;
+    background-image: url("../../Images/ContactUs/contact_bg_image.png");
+    background-repeat: no-repeat;
+    background-position: top 250px left -750px;
+    background-size: cover;
 }
 
 @media (max-width:1024px) {

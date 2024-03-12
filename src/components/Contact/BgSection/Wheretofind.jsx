@@ -15,7 +15,7 @@ function Wheretofind() {
             <div className="where_find_list_main_div" >
               <div> Funjoy Food Products (Pvt) Ltd.</div>
               <div> Naudharani Road to Madevi Road,</div>
-              <div> Malerkotla, Punjab - 148023, </div>
+              <div> Malerkotla, Punjab - 148023 </div>
             </div>
           </div>
         </div>

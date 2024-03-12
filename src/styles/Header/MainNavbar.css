@@ -22,7 +22,7 @@
   cursor: pointer;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; 
   transition: all 0.7s ease;
   border-radius: 40px;
 
@@ -39,4 +39,14 @@
 }
 .navbar_logo {
   width: 80%;
+}
+
+.active .main_navbar_li {
+ background: linear-gradient(
+    358deg,
+    var(--main-white-color),
+    var(--main-red-color),
+    var(--main-red-color)
+  );
+  color: var(--main-white-color);
 }

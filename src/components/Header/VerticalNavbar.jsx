@@ -62,11 +62,11 @@ function SmallNavbar() {
                 data-aos-easing="ease-in-out"
                 data-aos-mirror="true"
               >
-                <Link to={"/about"} className="css-for-link-tag">
-                  <li>ABOUT US</li>
-                </Link>
                 <Link to={"/"} className="css-for-link-tag">
                   <li>HOME</li>
+                </Link>
+                <Link to={"/about"} className="css-for-link-tag">
+                  <li>ABOUT US</li>
                 </Link>
                 <Link to={"/product"} className="css-for-link-tag">
                   <li>PRODUCTS</li>

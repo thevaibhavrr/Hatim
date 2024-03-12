@@ -1,31 +1,43 @@
 import React, { useState } from "react";
-import axios from "axios"
+import axios from "axios";
 import "../../../styles/Contact/ContactUsForm.css";
 function ContactUsForm() {
-  const [formData,setFormData]= useState({
-    name:"",
-    email:"",
-    PhoneNumber:"",
-    message:""
-  })
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    PhoneNumber: "",
+    message: "",
+  });
 
-  const handelCahnge = (e)=>{
+  const handelCahnge = (e) => {
     setFormData({
-      ...formData,[e.target.name]:e.target.value
-    })
-  }
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(formData);
-    axios.post('https://hamis-backend.onrender.com/send-email', formData)
-      .then(res => {
-        console.log(res.data);
-      })
-      .catch(error => {
-        console.error(error);
-      });
+    try {
+      axios
+        .post("https://hamis-backend.onrender.com/send-email", formData)
+        .then((res) => {
+          console.log(res.data);
+          setFormData({
+            name: "",
+            email: "",
+            PhoneNumber: "",
+            message: "",
+          });
+        })
+        .catch((error) => {
+          console.error(error);
+        });
+    } catch (error) {
+      console.log(error);
+    }
   };
+
   return (
     <div>
       <div className="ContactUsForm_main_contant">
@@ -33,7 +45,7 @@ function ContactUsForm() {
         <div className="CONNECT_text">CONNECT</div>
         {/* form */}
         <div className="connect_form_div">
-          <div className="connect_form_second_div" >
+          <div className="connect_form_second_div">
             {/* top */}
             <div className="ContactUsForm_right_side_top_heading">
               Got Questions? We've Got Answers!
@@ -51,8 +63,7 @@ function ContactUsForm() {
                     onChange={handelCahnge}
                     className="contact_us_form_input_filed"
                     placeholder="Full Name"
-                    required={true}
-
+                    required
                   />
                 </div>
                 {/* email */}
@@ -64,13 +75,11 @@ function ContactUsForm() {
                     onChange={handelCahnge}
                     className="contact_us_form_input_filed"
                     placeholder="Email Address"
-                    required={true}
-
-
+                    required
                   />
                 </div>
                 {/* Phone */}
-                <div> 
+                <div>
                   <input
                     type="text"
                     value={formData.PhoneNumber}
@@ -78,8 +87,7 @@ function ContactUsForm() {
                     name="PhoneNumber"
                     className="contact_us_form_input_filed"
                     placeholder="Phone Number"
-                    required={true}
-
+                    required
                   />
                 </div>
                 {/* Message */}
@@ -91,13 +99,16 @@ function ContactUsForm() {
                     onChange={handelCahnge}
                     className="contact_us_form_input_filed"
                     placeholder="Message"
-                    required={true}
-
-
+                    required
                   />
                 </div>
-                <div className="contact_us_form_submit_button_div" >
-                  <button className="contact_us_form_submit_button" onClick={handleSubmit} >Submit</button>
+                <div className="contact_us_form_submit_button_div">
+                  <button
+                    className="contact_us_form_submit_button"
+                    onClick={handleSubmit}
+                  >
+                    Submit
+                  </button>
                 </div>
               </div>
             </div>
