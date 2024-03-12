@@ -12,7 +12,7 @@ function CompanyDetails() {
       <div className="company_details_top_main_div">
         {/* heading */}
         <div>
-          <div className="founder_name_div" >MR. KULWANT SINGH.</div>
+          <div className="founder_name_div" >MR. VARINDER SINGH.</div>
           <div>FOUNDER</div>
         </div>
 

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import axios from "axios"
 import "../../../styles/Contact/ContactUsForm.css";
 function ContactUsForm() {
   const [formData,setFormData]= useState({
@@ -17,13 +18,13 @@ function ContactUsForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(formData);
-    // axios.post('/send-email', formData)
-    //   .then(res => {
-    //     console.log(res.data);
-    //   })
-    //   .catch(error => {
-    //     console.error(error);
-    //   });
+    axios.post('https://hamis-backend.onrender.com/send-email', formData)
+      .then(res => {
+        console.log(res.data);
+      })
+      .catch(error => {
+        console.error(error);
+      });
   };
   return (
     <div>
@@ -50,6 +51,8 @@ function ContactUsForm() {
                     onChange={handelCahnge}
                     className="contact_us_form_input_filed"
                     placeholder="Full Name"
+                    required={true}
+
                   />
                 </div>
                 {/* email */}
@@ -61,10 +64,13 @@ function ContactUsForm() {
                     onChange={handelCahnge}
                     className="contact_us_form_input_filed"
                     placeholder="Email Address"
+                    required={true}
+
+
                   />
                 </div>
                 {/* Phone */}
-                <div>
+                <div> 
                   <input
                     type="text"
                     value={formData.PhoneNumber}
@@ -72,6 +78,8 @@ function ContactUsForm() {
                     name="PhoneNumber"
                     className="contact_us_form_input_filed"
                     placeholder="Phone Number"
+                    required={true}
+
                   />
                 </div>
                 {/* Message */}
@@ -83,6 +91,9 @@ function ContactUsForm() {
                     onChange={handelCahnge}
                     className="contact_us_form_input_filed"
                     placeholder="Message"
+                    required={true}
+
+
                   />
                 </div>
                 <div className="contact_us_form_submit_button_div" >
