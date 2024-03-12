@@ -14,7 +14,7 @@ function Hamisproducts() {
             className="main_heading main_product_text"
             data-aos="zoom-in"
             data-aos-offset="200"
-            data-aos-delay="1000"
+            data-aos-delay="800"
             data-aos-duration="1000"
           >
             Product
@@ -25,7 +25,7 @@ function Hamisproducts() {
           className="main_product_image"
           // data-aos="zoom-in"
           // data-aos-offset="200"
-          // data-aos-delay="1000"
+          // data-aos-delay="800"
           // data-aos-duration="1000"
         >
           <div className="bisk_product_div">

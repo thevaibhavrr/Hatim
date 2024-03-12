@@ -26,7 +26,7 @@ function HamisArchivment() {
           className="hamis_archivment_text_section"
           data-aos="zoom-in"
           data-aos-offset="200"
-          data-aos-delay="1000"
+          data-aos-delay="800"
           data-aos-duration="1000"
         >
           Hamis: ISO-certified excellence in every bite. Unmatched quality,
@@ -40,7 +40,7 @@ function HamisArchivment() {
           className="text-end hamis_archivment_text_section"
           data-aos="zoom-in"
           data-aos-offset="200"
-          data-aos-delay="1000"
+          data-aos-delay="800"
           data-aos-duration="1000"
         >
           Crafted from the finest ingredients for an unparalleled taste

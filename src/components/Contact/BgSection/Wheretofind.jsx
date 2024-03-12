@@ -6,9 +6,15 @@ function Wheretofind() {
       {/* contant */}
       <div className="main_where_find_contant" >
         {/* top */}
-        <div>
+        <div
+         data-aos="zoom-in"
+         data-aos-offset="200"
+         data-aos-delay="500"
+         data-aos-duration="1000"
+        >
           {/* hading */}
-          <div className="where_find_red_heading" >Where to Find Us</div>
+          <div className="where_find_red_heading"
+           >Where to Find Us</div>
           {/* address */}
           <div>
             {/* 1 */}
@@ -20,7 +26,12 @@ function Wheretofind() {
           </div>
         </div>
         {/* bttom */}
-        <div>
+        <div
+         data-aos="zoom-in"
+         data-aos-offset="200"
+         data-aos-delay="500"
+         data-aos-duration="1000"
+        >
           {/* hading */}
           <div className="where_find_red_heading" >Connect Us Via:</div>
           {/* address */}

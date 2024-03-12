@@ -42,9 +42,19 @@ function ContactUsForm() {
     <div>
       <div className="ContactUsForm_main_contant">
         {/* text */}
-        <div className="CONNECT_text">CONNECT</div>
+        <div className="CONNECT_text"
+         data-aos="zoom-in"
+         data-aos-offset="200"
+         data-aos-delay="500"
+         data-aos-duration="1000"
+        >CONNECT</div>
         {/* form */}
-        <div className="connect_form_div">
+        <div className="connect_form_div"
+         data-aos="zoom-in"
+         data-aos-offset="200"
+         data-aos-delay="500"
+         data-aos-duration="1000"
+        >
           <div className="connect_form_second_div">
             {/* top */}
             <div className="ContactUsForm_right_side_top_heading">

@@ -9,7 +9,7 @@ function OurStory() {
             className="main_Our_story_div_hading"
             data-aos="zoom-in"
             data-aos-offset="200"
-            data-aos-delay="1000"
+            data-aos-delay="800"
             data-aos-duration="1000"
           >
             Our Story
@@ -18,7 +18,7 @@ function OurStory() {
             className="main_Our_story_div_message"
             data-aos="zoom-in"
             data-aos-offset="200"
-            data-aos-delay="1000"
+            data-aos-delay="800"
             data-aos-duration="1000"
           >
             Hamis Biscuits was founded in the years 1990. we firmly stand to

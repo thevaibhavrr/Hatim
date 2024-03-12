@@ -3,11 +3,18 @@ import bannerImage from "../../Images/ContactUs/Contact_us_banner.png";
 import "../../styles/Contact/ContactBanner.css";
 function ContactBanner() {
   return (
-    <div className="main_contact_us_page_banner">
+    <div className="main_contact_us_page_banner"
+    data-aos="zoom-in"
+    data-aos-offset="200"
+    data-aos-delay="500"
+    data-aos-duration="1000"
+    >
       <div>
         <img src={bannerImage} alt="" className="main_contgact_us_image" />
       </div>
-      <div className="ContactUs_Text" >Contact Us</div>
+      <div className="ContactUs_Text"
+     
+      >Contact Us</div>
     </div>
   );
 }

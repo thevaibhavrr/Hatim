@@ -25,7 +25,7 @@ function SmallNavbar() {
             className="d-flex justify-content-evenly w-100 "
             data-aos="zoom-in"
             data-aos-offset="200"
-            data-aos-delay="1000"
+            data-aos-delay="800"
             data-aos-duration="5000"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"

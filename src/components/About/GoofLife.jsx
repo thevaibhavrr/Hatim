@@ -7,7 +7,12 @@ function GoofLife() {
       <div className="main_good_life">
         <div className="good_life_conant_div">
           {/* top */}
-          <div className="good_life_text">
+          <div className="good_life_text"
+          data-aos="zoom-in"
+          data-aos-offset="200"
+          data-aos-delay="500"
+          data-aos-duration="1000"
+          >
             <div>FOR A GOOD LIFE, HAVE A </div>
             <div className="good_life_second_div">
               <div>GOOD BITE</div>

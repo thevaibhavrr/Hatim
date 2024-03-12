@@ -9,7 +9,7 @@ function WhyHamis() {
         className="main_heading Why_Hamis_text"
         data-aos="zoom-in"
         data-aos-offset="200"
-        data-aos-delay="1000"
+        data-aos-delay="800"
         data-aos-duration="1000"
       >
         Why Hamis?
@@ -19,7 +19,7 @@ function WhyHamis() {
         className="why_hamis_details_div"
         data-aos="zoom-in"
         data-aos-offset="200"
-        data-aos-delay="1000"
+        data-aos-delay="800"
         data-aos-duration="1000"
       >
         {/* 1 */}
