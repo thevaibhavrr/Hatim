@@ -42,4 +42,7 @@
         align-items: center;
         gap: 30px;
     }
+    .who_we_are_main_message{
+        text-align: center;
+    }
 }

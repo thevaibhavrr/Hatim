@@ -22,4 +22,21 @@
   left: 50%;
   top: 40%;
   transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width:500px) {
+  .ContactUs_Text {
+    color: var(--main-red-color);
+  font-size: 50px;
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+
 }

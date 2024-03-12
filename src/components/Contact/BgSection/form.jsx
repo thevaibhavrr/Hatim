@@ -1,6 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
 import "../../../styles/Contact/ContactUsForm.css";
 function ContactUsForm() {
+  const [formData,setFormData]= useState({
+    name:"",
+    email:"",
+    PhoneNumber:"",
+    message:""
+  })
+
+  const handelCahnge = (e)=>{
+    setFormData({
+      ...formData,[e.target.name]:e.target.value
+    })
+  }
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(formData);
+    axios.post('/send-email', formData)
+      .then(res => {
+        console.log(res.data);
+      })
+      .catch(error => {
+        console.error(error);
+      });
+  };
   return (
     <div>
       <div className="ContactUsForm_main_contant">
@@ -21,7 +45,9 @@ function ContactUsForm() {
                 <div>
                   <input
                     type="text"
-                    name="Name"
+                    name="name"
+                    value={formData.name}
+                    onChange={handelCahnge}
                     className="contact_us_form_input_filed"
                     placeholder="Full Name"
                   />
@@ -31,6 +57,8 @@ function ContactUsForm() {
                   <input
                     type="text"
                     name="email"
+                    value={formData.email}
+                    onChange={handelCahnge}
                     className="contact_us_form_input_filed"
                     placeholder="Email Address"
                   />
@@ -39,7 +67,9 @@ function ContactUsForm() {
                 <div>
                   <input
                     type="text"
-                    name="number"
+                    value={formData.PhoneNumber}
+                    onChange={handelCahnge}
+                    name="PhoneNumber"
                     className="contact_us_form_input_filed"
                     placeholder="Phone Number"
                   />
@@ -48,13 +78,15 @@ function ContactUsForm() {
                 <div>
                   <textarea
                     type="text"
-                    name="Message"
+                    name="message"
+                    value={formData.message}
+                    onChange={handelCahnge}
                     className="contact_us_form_input_filed"
                     placeholder="Message"
                   />
                 </div>
                 <div className="contact_us_form_submit_button_div" >
-                  <button className="contact_us_form_submit_button" >Submit</button>
+                  <button className="contact_us_form_submit_button" onClick={handleSubmit} >Submit</button>
                 </div>
               </div>
             </div>

@@ -1,5 +1,6 @@
 .loacte_contant_div{
     display: flex;
+    gap: 20px;
 }
 .locate_text{
     display: flex;
@@ -18,4 +19,20 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     width: 100%;
     height: 380px;
+}
+
+@media (max-width:1024px) {
+    .contact_us_google_ifream{
+        width: 95%;
+        height: 380px;
+    }
+    
+}
+@media (max-width:500px) {
+    .loacte_contant_div{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 20px;
+    }
 }

@@ -1,70 +1,152 @@
-.ContactUsForm_main_contant{
-    display: flex;
-    justify-content: space-between;
+.ContactUsForm_main_contant {
+  display: flex;
+  justify-content: space-between;
 }
 /* left */
-.CONNECT_text{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 30%;
-    font-size: 50px;
-    letter-spacing: 2px;
-    font-family:  var(--Inria--Sans--font-family);
+.CONNECT_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  font-size: 50px;
+  letter-spacing: 2px;
+  font-family: var(--Inria--Sans--font-family);
 }
 /* right */
-.connect_form_div{
-    width: 60%;
-    padding: 50px 0px;
+.connect_form_div {
+  width: 60%;
+  padding: 50px 0px;
 }
-.connect_form_second_div{
-    display: flex;
-    flex-direction: column;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    border-radius: 50px;
+.connect_form_second_div {
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 50px;
 }
-.ContactUsForm_right_side_top_heading{
-    border-radius: 30px 30px 0px 0px ;
-    padding: 40px 30px;
-    background: var(--main-red-color);
-    color: white;
-    font-size: 32px;
-    font-family: var(--Inria--Sans--font-family);
+.ContactUsForm_right_side_top_heading {
+  border-radius: 30px 30px 0px 0px;
+  padding: 40px 30px;
+  background: var(--main-red-color);
+  color: white;
+  font-size: 32px;
+  font-family: var(--Inria--Sans--font-family);
 }
 /* right bottom */
-.ContactUsForm_right_side_bottom{
-    padding: 40px 20px;
-    border-radius: 0px 0px 30px 30px  ;
-
+.ContactUsForm_right_side_bottom {
+  padding: 40px 20px;
+  border-radius: 0px 0px 30px 30px;
+  background-image: url("../../Images/ContactUs/form_Bg_image.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 /* form */
-.ContactUsForm_right_side_bottom_input_div_parent{
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    padding: 10px 30px;
+.ContactUsForm_right_side_bottom_input_div_parent {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 10px 30px;
 }
-.ContactUsForm_right_side_bottom_input_div_parent div{
-    width: 100%;
+.ContactUsForm_right_side_bottom_input_div_parent div {
+  width: 100%;
 }
-.contact_us_form_input_filed{
-    padding: 20px;
-    width: 100%;
-    border: 1px solid var(--main-red-color);
-    border-radius: 5px;
+.contact_us_form_input_filed {
+  padding: 20px;
+  width: 100%;
+  border: 1px solid var(--main-red-color);
+  border-radius: 5px;
 }
 
 /* button */
-.contact_us_form_submit_button_div{
-    text-align: end;
+.contact_us_form_submit_button_div {
+  text-align: end;
 }
-.contact_us_form_submit_button{
-    padding: 12px 40px;
-    border-radius: 10px;
-    border: none;
-    background: var(--main-red-color);
-    color: white;
-    font-size: 24px;
-    font-family: var(--Inria--Sans--font-family);
+.contact_us_form_submit_button {
+  padding: 12px 40px;
+  border-radius: 10px;
+  border: none;
+  background: var(--main-red-color);
+  color: white;
+  font-size: 24px;
+  font-family: var(--Inria--Sans--font-family);
+}
+@media (max-width: 900px) {
+  /* left */
+  .CONNECT_text {
+    width: 25%;
+  }
+  /* right */
+  .connect_form_div {
+    width: 60%;
+    padding: 50px 0px;
+  }
+
+  .ContactUsForm_right_side_top_heading {
+    padding: 25px;
+  }
+  /* right bottom */
+  .ContactUsForm_right_side_bottom {
+    padding: 20px 15px;
+  }
+
+  /* form */
+  .ContactUsForm_right_side_bottom_input_div_parent {
+    gap: 20px;
+    padding: 8px 30px;
+  }
+
+  .contact_us_form_input_filed {
+    padding: 18px;
+  }
+
+  .contact_us_form_submit_button {
+    padding: 10px 45px;
+  }
+}
+
+@media (max-width: 500px) {
+  .ContactUsForm_main_contant {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  /* right */
+  .connect_form_div {
+    width: 100%;
+    padding: 40px 0px;
+  }
+  .ContactUsForm_right_side_top_heading {
+    padding: 10px;
+    text-align: center;
+  }
+  /* right bottom */
+  .ContactUsForm_right_side_bottom {
+    padding: 15px;
+  }
+
+  /* form */
+  .ContactUsForm_right_side_bottom_input_div_parent {
+    gap: 15px;
+    padding: 0px 30px;
+  }
+  .ContactUsForm_right_side_bottom_input_div_parent div {
+    width: 100%;
+  }
+  .contact_us_form_input_filed {
+    padding: 15px;
+  }
+
+  /* button */
+  .contact_us_form_submit_button_div {
+    text-align: center;
+  }
+  .contact_us_form_submit_button {
+    padding: 10px 30px;
+    font-size: 22px;
+  }
 }

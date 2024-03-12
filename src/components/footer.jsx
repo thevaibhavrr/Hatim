@@ -83,7 +83,7 @@ function Footer() {
               </li>
               <li className="footer_options">
                 {" "}
-                <Link to={"/contact-us"} className=" css-for-link-tag">
+                <Link to={"/ContactUs"} className=" css-for-link-tag">
                   <li>Contact Us</li>
                 </Link>
               </li>

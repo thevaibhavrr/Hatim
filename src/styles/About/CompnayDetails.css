@@ -2,13 +2,14 @@
     display: flex;
     justify-content: space-around;
     padding: 100px;
+    /* gap: 20px; */
     /* align-items: center; */
 }
 .company_details_top_main_div{
     margin-top: 40px;
 }
 /* hading */
-.founder_name_div{
+.founder_name_div{ 
     font-weight: bold;
 }
 /* images */
@@ -39,5 +40,44 @@
     font-size: 24px;
     letter-spacing: 3px;
   }
-  
+  @media (max-width:500px) {
+    .main_company_details_div{
+        display: flex;
+        justify-content: space-around;
+        padding: 80px 40px;
+        gap: 20px;
+        /* align-items: center; */
+    }
+    .company_details_top_main_div{
+        margin-top: 40px;
+    }
+    /* hading */
+    .founder_name_div{ 
+        font-weight: bold;
+    }
+    /* images */
+    .main_company_details_Image_section{
+        gap: 10px;
+    }
+    .main_company_details_Image_section div{
+        text-align: center;
+    }
+    .company_details_images{
+        width: 95%;
+    }
+    /* text */
+    .main_company_details_text_section{
+        display: flex;
+        padding-top: 10px;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        font-family: var(--Inria--Sans--font-family);
+    }
+    .main_company_details_text_div div:nth-child(1) {
+        font-weight: bold;
+        font-size: 24px;
+        letter-spacing: 3px;
+      }
+  }
   

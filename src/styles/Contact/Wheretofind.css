@@ -5,11 +5,12 @@
     padding: 30px;
     /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
     box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-
+    background: transparent;
     text-align: center;
     display: flex;
     flex-direction: column;
     gap: 30px;
+    border-radius: 20px;
 }
 
 /* heading */
@@ -27,4 +28,15 @@
     gap: 5px;
     font-size: 24px;
     font-family: var(--Inria--Sans--font-family);
+}
+
+
+
+
+
+
+
+
+@media (max-width:500px) {
+    
 }
