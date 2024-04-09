@@ -5,7 +5,7 @@
 .main_product_images_parant_div{
     display: flex;
     /* padding: 100px 50px; */
-    padding: 250px 10px 0px 50px;
+    padding: 250px 0px 0px 50px;
     height: 100%;
 }
 .product_images_main_div{
@@ -15,7 +15,7 @@
 }
 .left_product_image{
     position: absolute;
-    right: -30px;
+    right: 0px;
     top: -100px;
 }
 .right_product_image{
@@ -48,7 +48,7 @@
 .image_text_products_red_color_bottom_section{
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 20px;
     width: 50%;
     font-size: 30px;
 }

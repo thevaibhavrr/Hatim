@@ -57,7 +57,7 @@ function BiteIntotext() {
     useEffect(() => {
         const intervalId = setInterval(() => {
             setCurrentTextIndex((prevIndex) => (prevIndex + 1) % texts.length);
-        }, 3000);
+        }, 2000);
 
         return () => clearInterval(intervalId);
     }, [texts.length]);
