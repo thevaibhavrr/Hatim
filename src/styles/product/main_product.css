@@ -1,0 +1,48 @@
+.main_product_component_div_orange {
+  background-image: url("../../Images/Product/bgimages/orange_Bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top -200px right -250px;
+  /* background: #000; */
+}
+
+.main_product_component_div_choklate{
+    background-image: url("../../Images/Product/bgimages/milk_bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: top 200px right 0px; 
+    /* background: #000;  */
+}
+
+/* elichi */
+.main_product_component_div_elichi{
+    background-image: url("../../Images/Product/bgimages/elichi_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top -200px right 0px; 
+}
+/* butter */
+.main_product_component_div_butter{
+    background-image: url("../../Images/Product/bgimages/butter_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top -200px left -200px;  
+}
+
+/* coco */
+.main_product_component_div_coco{
+    background-image: url("../../Images/Product/bgimages/cooco_bg.png");
+    background-repeat: no-repeat;
+    background-size: 120% 200%;
+    background-position: top -200px right 0px;  
+    /* background-position: center; */
+}
+
+/* milk bisl */
+.main_product_component_div_milk{
+    background-image: url("../../Images/Product/bgimages/milk_bisk_bg.png");
+    background-repeat: no-repeat;
+    background-size: 120% 200%;
+    background-position: top -200px right 0px;  
+    /* background-position: center; */  
+}

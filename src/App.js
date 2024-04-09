@@ -8,6 +8,7 @@ import Header from "./components/Header/Header";
 import About from "./pages/About";
 import "animate.css"; 
 import ContactUs from "./pages/ContactUs";
+import Product from "./pages/Product";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/ContactUs" element={<ContactUs />} />
+        <Route path="/product" element={<Product />} />
       </Routes>
       <Footer />
     </div>

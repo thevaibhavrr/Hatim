@@ -43,7 +43,9 @@ function MainNavbar() {
         <div className="">
           <img src={Icon} alt="logo" className="navbar_logo" />
         </div>
+        <NavLink to="/product" activeClassName="active" className="css-for-link-tag-for-header">
         <div className="main_navbar_li">PRODUCTS</div>
+        </NavLink>
         <NavLink to="/ContactUs" activeClassName="active" className="css-for-link-tag-for-header">
           <div className="main_navbar_li">CONTACT US</div>
         </NavLink>

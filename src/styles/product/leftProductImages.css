@@ -1,0 +1,10 @@
+.left_side_left_product_image{
+    top: -80px;
+    left: -50px;
+    position: absolute;
+}
+.left_side_right_product_image{
+    position: absolute;
+    right: 0px;
+    bottom: 80px;
+}
