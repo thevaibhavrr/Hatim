@@ -19,18 +19,20 @@ function RightProductImages ({ left , right, main , flavour } ) {
                 </div>
                 <div className='product_images_main_div' >
                     {/* left image */}
+                    {/* center main image */}
+                    <div className='main_orange_center_image_div' >
                     <div className='left_product_image ' >
                         <img src={ right} alt='left' className='img-fluid right_side_top_product_image ' />
                     </div>
-                    {/* center main image */}
                     <div>
                         <img src={ main } alt='left' className='main_orange_center_image' />
-
                     </div>
-                    {/* right image */}
+
                     <div className='right_product_image' >
                         <img src={ left } alt='left' className='right_side_top_product_image' />
                     </div>
+                    </div>
+                    {/* right image */}
                 </div>
             </div>
 

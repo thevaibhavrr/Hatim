@@ -4,14 +4,16 @@
 }
 .main_product_images_parant_div{
     display: flex;
-    /* padding: 100px 50px; */
     padding: 250px 0px 0px 50px;
     height: 100%;
 }
 .product_images_main_div{
-    position: relative;
     width: 100%;
     display: flex;
+}
+.main_orange_center_image_div{
+    position: relative;
+
 }
 .left_product_image{
     position: absolute;

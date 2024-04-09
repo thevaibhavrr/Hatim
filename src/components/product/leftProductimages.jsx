@@ -8,18 +8,20 @@ function LeftProductImages({ left, right, main, flavour }) {
             <div className='main_product_images_parant_div' >
                 {/* image */}
                 <div className='product_images_main_div' >
+                    {/* center main image */}
+                    <div className='main_orange_center_image_div' >
                     {/* left image */}
                     <div className='left_side_left_product_image ' >
                         <img src={left} alt='left' className='img-fluid right_side_top_product_image ' />
                     </div>
-                    {/* center main image */}
                     <div>
                         <img src={main} alt='left' className='main_orange_center_image' />
-
                     </div>
+
                     {/* right image */}
                     <div className='left_side_right_product_image' >
                         <img src={right} alt='left' className='right_side_top_product_image' />
+                    </div>
                     </div>
                 </div>
                 {/* text */}
