@@ -20,6 +20,20 @@
     bottom: 18vh;
 }
 
+@media (max-width: 1024px) {
+    .left_side_left_product_image {
+        top: -8vh;
+        left: -5vw;
+        position: absolute;
+    }
+    
+    .left_side_right_product_image {
+        position: absolute;
+        right: -22vh;
+        bottom: 32vh;
+    }    
+}
+
 /* Media Queries for responsiveness */
 @media screen and (max-width: 768px) {
     .left_side_left_product_image {
