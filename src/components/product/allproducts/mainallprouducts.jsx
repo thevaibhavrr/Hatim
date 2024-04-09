@@ -56,7 +56,7 @@ function Mainallprouducts() {
             </div>
             <div className='main_product_component_div_milk' >
             {/* milk */}
-            <LeftProductImages left={leftMilk} right={rightMilk} main={mainMilk} flavour={"MILK BIK"} />
+            <LeftProductImages left={leftMilk} right={rightMilk} main={mainMilk} flavour={"MILK BISK"} />
             </div>
         </div>
     )

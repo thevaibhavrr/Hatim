@@ -1,4 +1,4 @@
-.main_right_side_proudcts_top_parent_div{
+/* .main_right_side_proudcts_top_parent_div{
     height: 100vh;
     font-family: var(--Inria--Sans--font-family);
 }
@@ -29,10 +29,10 @@
     width: 90%;
 }
 .right_side_top_product_image{
-    width: 90%;
-}
+    width: 80%;
+} */
 /* text */
-.main_product_text_div_section{
+/* .main_product_text_div_section{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -56,4 +56,99 @@
 }
 .location_icon_product_text_page{
     width: 55px;
+} */
+
+
+.main_right_side_proudcts_top_parent_div {
+    height: 100vh;
+    font-family: var(--Inria--Sans--font-family);
+}
+
+.main_product_images_parant_div {
+    display: flex;
+    padding: 10% 0 0 5%;
+    height: 100%;
+}
+
+.product_images_main_div {
+    width: 100%;
+    display: flex;
+}
+
+.main_orange_center_image_div {
+    position: relative;
+}
+
+.left_product_image {
+    position: absolute;
+    right: 0;
+    top: -10vh;
+}
+
+.right_product_image {
+    position: absolute;
+    left: -5vw;
+    bottom: 12vh;
+}
+
+.main_orange_center_image {
+    width: 90%;
+}
+
+.right_side_top_product_image {
+    width: 80%;
+}
+
+.main_product_text_div_section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10vh;
+}
+
+.image_text_products_red_color {
+    background: red;
+    width: 70%;
+    color: white;
+    font-size: 3vw;
+    text-align: center;
+}
+
+.image_text_products_red_color_bottom_section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2vh;
+    width: 70%;
+    font-size: 3vw;
+}
+
+.location_icon_product_text_page {
+    width: 5vw;
+}
+
+/* Media Queries for responsiveness */
+@media screen and (max-width: 768px) {
+    .main_product_images_parant_div {
+        padding: 20% 0 0 5%;
+    }
+    
+    .image_text_products_red_color,
+    .image_text_products_red_color_bottom_section {
+        width: 90%;
+        font-size: 4vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .main_product_images_parant_div {
+        padding: 30% 0 0 5%;
+    }
+    
+    .image_text_products_red_color,
+    .image_text_products_red_color_bottom_section {
+        width: 100%;
+        font-size: 5vw;
+    }
 }
