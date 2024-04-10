@@ -59,8 +59,7 @@ function Testimonial() {
     {
       user : thirduser,
       message:
-      "Hamis Biscuits are next-level! The Butter Bisk just melts away, while Coconut Crunchy adds the perfect crunch. Black Moment hits the chocolate spot every time. And the new Spin varieties? Simply awesome in every bite!",      name: "Rajesh Singh",
-
+      "Hamis Biscuits are next-level! The Butter Bisk just melts away, while Coconut Crunchy adds the perfect crunch. Black Moment hits the chocolate spot every time. And the new Spin varieties? Simply awesome in every bite!",      
       name: "Rajesh Singh",
       proffetion: "Manufacturing Manager",
     },

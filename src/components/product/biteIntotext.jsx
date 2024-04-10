@@ -48,6 +48,7 @@
 
 
 import React, { useState, useEffect } from 'react';
+
 import "../../styles/product/biteIntotext.css";
 
 function BiteIntotext() {
