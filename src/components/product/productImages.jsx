@@ -14,7 +14,7 @@ function RightProductImages({ left, right, main, flavour, price, secondprice }) 
                         </div>
                         <div className='location_icon_product_text_page' >
                             <img src={location} alt="location" className='location_icon_product_text_page' />
-                            <div className='location_price' >₹{price}</div>
+                            <div className='location_price' >₹ {price}</div>
                         </div>
                         {/* show this second only when secondprice is there  */}
                         {secondprice &&

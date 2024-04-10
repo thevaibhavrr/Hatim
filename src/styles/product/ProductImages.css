@@ -83,7 +83,7 @@
     position: absolute;
     top : 6px ;
     font-size: 18px;
-    left: 16px;
+    left: 13px;
   }
   .left_product_image {
     position: absolute;
@@ -120,7 +120,7 @@
     position: absolute;
     top : 6px ;
     font-size: 15px;
-    left: 12px;
+    left: 9px;
   }
   .main_product_images_parant_div {
     padding: 20% 0 0 5%;
@@ -185,7 +185,7 @@
   }
 
   .image_text_products_red_color_bottom_section {
-    gap: 20px;
+    gap: 10px;
   }
 
   .location_icon_product_text_page {
