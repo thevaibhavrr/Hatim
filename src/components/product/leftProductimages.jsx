@@ -13,8 +13,9 @@ function LeftProductImages({ left, right, main, flavour }) {
                         <div>
                             Presented in <br /> Packs of
                         </div>
-                        <div>
+                        <div className='location_icon_product_text_page' >
                             <img src={location} alt="location" className='location_icon_product_text_page' />
+                            <div className='location_price' >₹5</div>
                         </div>
                     </div>
                 </div>
