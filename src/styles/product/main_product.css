@@ -14,7 +14,12 @@
     background-size: 100% 100%;
     background-position: top 200px right 0;
   }
-  
+.main_product_component_div_chocolate{
+    background-image: url("../../Images/Product/bgimages/Chocolate_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top -400px right 0;
+}  
   .main_product_component_div_elichi {
     background-image: url("../../Images/Product/bgimages/elichi_bg.png");
     background-repeat: no-repeat;
@@ -52,7 +57,9 @@
     .main_product_component_div_choklate {
       background-position: top 100px right 0;
     }
-  
+  .main_product_component_div_chocolate{
+    background-position: top -200px right 0;
+  }
     .main_product_component_div_elichi {
       background-position: top -100px right 0;
     }
@@ -76,7 +83,9 @@
     .main_product_component_div_choklate {
       background-position: top 0 right 0;
     }
-  
+    .main_product_component_div_chocolate{
+      background-position: top -50px right 0;
+    }
     .main_product_component_div_elichi {
       background-position: top 0 right 0;
     }

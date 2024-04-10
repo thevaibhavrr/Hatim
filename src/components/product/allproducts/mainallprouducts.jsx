@@ -31,9 +31,18 @@ import rightCoco from "../../../Images/Product/coco right.png"
 import mainMilk from "../../../Images/Product/left images/milk biscuit.png"
 import leftMilk from "../../../Images/Product/left images/milk left.png"
 import rightMilk from "../../../Images/Product/left images/milk right.png"
+
+// Chocolate 
+import mainChocolate from "../../../Images/Product/left images/chocolate Biscuit.png"
+import leftChocolate from "../../../Images/Product/left images/Chocolate left.png"
+import rightChocolate from "../../../Images/Product/left images/Chocolate right.png"
 function Mainallprouducts() {
     return (
         <div>
+             <div className='main_product_component_div_chocolate' >'
+                {/* Chocolate */}
+                <LeftProductImages left={leftChocolate} right={rightChocolate} main={mainChocolate} flavour={"CHOCOLATE"} price={5}/>
+            </div>
             <div className='main_product_component_div_orange' >
                 {/* orange */}
                 <RightProductImages main={OrangeMainBiscut} left={OrangeleftBisculte} right={OrangeRightImage} flavour={" SPAIN ORANGE "} price={5} />
