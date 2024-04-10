@@ -36,27 +36,27 @@ function Mainallprouducts() {
         <div>
             <div className='main_product_component_div_orange' >
                 {/* orange */}
-                <RightProductImages main={OrangeMainBiscut} left={OrangeleftBisculte} right={OrangeRightImage} flavour={" SPAIN ORANGE "} />
+                <RightProductImages main={OrangeMainBiscut} left={OrangeleftBisculte} right={OrangeRightImage} flavour={" SPAIN ORANGE "} price={5} />
             </div>.
             <div className='main_product_component_div_elichi' >'
                 {/* elichi */}
-                <LeftProductImages left={elichileftBisculte} right={elichiRightImage} main={lichiMainBiscut} flavour={"SPAIN Elichi"} />
+                <LeftProductImages left={elichileftBisculte} right={elichiRightImage} main={lichiMainBiscut} flavour={"SPAIN Elichi"} price={5}/>
             </div>
             <div className='main_product_component_div_choklate' >
                 {/* choklate */}
-                <RightProductImages main={mainchoklete} left={leftChoklate} right={rightChoklate} flavour={" BLACK MOMENT "} />
+                <RightProductImages main={mainchoklete} left={leftChoklate} right={rightChoklate} flavour={" BLACK MOMENT "} price={5}/>
             </div>
             <div className='main_product_component_div_butter' >
             {/* butter */}
-            <LeftProductImages left={leftButter} right={rightButter} main={mainButter} flavour={"BUTTER BISK"} />
+            <LeftProductImages left={leftButter} right={rightButter} main={mainButter} flavour={"BUTTER BISK"} price={5} secondprice={10} />
             </div>
             <div className='main_product_component_div_coco' >
             {/* coco */}
-            <RightProductImages main={mainCoco} left={leftCoco} right={rightCoco} flavour={"COCONUT CRUNCHY"} />
+            <RightProductImages main={mainCoco} left={leftCoco} right={rightCoco} flavour={"COCONUT CRUNCHY"} price={5} secondprice={10}/>
             </div>
             <div className='main_product_component_div_milk' >
             {/* milk */}
-            <LeftProductImages left={leftMilk} right={rightMilk} main={mainMilk} flavour={"MILK BISK"} />
+            <LeftProductImages left={leftMilk} right={rightMilk} main={mainMilk} flavour={"MILK BISK"} price={5}/>
             </div>
         </div>
     )

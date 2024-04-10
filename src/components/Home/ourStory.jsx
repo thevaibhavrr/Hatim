@@ -1,5 +1,6 @@
 import React from "react";
 import "../../styles/Home/OurStory.css";
+import { Link } from "react-router-dom";
 function OurStory() {
   return (
     <>
@@ -32,7 +33,9 @@ function OurStory() {
             developing innovative products that reflect evolving consumer
             preferences. We believe that innovation is key to our success
           </div>
+          <Link to={"/about"} className="css-for-link-tag" >
           <div className="know_more_button">Know more</div>
+          </Link>
         </div>
       </div>
     </>

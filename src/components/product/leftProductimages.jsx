@@ -1,7 +1,7 @@
 import React from 'react'
 import "../../styles/product/leftProductImages.css"
 import location from "../../Images/Product/location_icon.png"
-function LeftProductImages({ left, right, main, flavour }) {
+function LeftProductImages({ left, right, main, flavour, price, secondprice }) {
     return (
         <div className='main_right_side_proudcts_top_parent_div'>
             {/* orange */}
@@ -15,8 +15,14 @@ function LeftProductImages({ left, right, main, flavour }) {
                         </div>
                         <div className='location_icon_product_text_page' >
                             <img src={location} alt="location" className='location_icon_product_text_page' />
-                            <div className='location_price' >₹5</div>
+                            <div className='location_price' >₹{price}</div>
                         </div>
+                        {secondprice &&
+                            <div className='location_icon_product_text_page' >
+                                <img src={location} alt="location" className='location_icon_product_text_page' />
+                                <div className='location_price' >₹{secondprice}</div>
+                            </div>
+                        }
                     </div>
                 </div>
                 {/* image */}
