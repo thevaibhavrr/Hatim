@@ -1,48 +1,94 @@
-.main_product_component_div_orange {
-  background-image: url("../../Images/Product/bgimages/orange_Bg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top -200px right -250px;
-  /* background: #000; */
-}
 
-.main_product_component_div_choklate{
+
+
+.main_product_component_div_orange {
+    background-image: url("../../Images/Product/bgimages/orange_Bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top -200px right -250px;
+  }
+  
+  .main_product_component_div_choklate {
     background-image: url("../../Images/Product/bgimages/milk_bg.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    background-position: top 200px right 0px; 
-    /* background: #000;  */
-}
-
-/* elichi */
-.main_product_component_div_elichi{
+    background-position: top 200px right 0;
+  }
+  
+  .main_product_component_div_elichi {
     background-image: url("../../Images/Product/bgimages/elichi_bg.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top -200px right 0px; 
-}
-/* butter */
-.main_product_component_div_butter{
+    background-position: top -200px right 0;
+  }
+  
+  .main_product_component_div_butter {
     background-image: url("../../Images/Product/bgimages/butter_bg.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top -200px left -200px;  
-}
-
-/* coco */
-.main_product_component_div_coco{
+    background-position: top -200px left -200px;
+  }
+  
+  .main_product_component_div_coco {
     background-image: url("../../Images/Product/bgimages/cooco_bg.png");
     background-repeat: no-repeat;
     background-size: 120% 200%;
-    background-position: top -200px right 0px;  
-    /* background-position: center; */
-}
-
-/* milk bisl */
-.main_product_component_div_milk{
+    background-position: top -200px right 0;
+  }
+  
+  .main_product_component_div_milk {
     background-image: url("../../Images/Product/bgimages/milk_bisk_bg.png");
     background-repeat: no-repeat;
     background-size: 120% 200%;
-    background-position: top -200px right 0px;  
-    /* background-position: center; */  
-}
+    background-position: top -200px right 0;
+  }
+  
+  /* Media Queries for responsiveness */
+  @media screen and (max-width: 768px) {
+    .main_product_component_div_orange {
+      background-position: top -100px right -100px;
+    }
+  
+    .main_product_component_div_choklate {
+      background-position: top 100px right 0;
+    }
+  
+    .main_product_component_div_elichi {
+      background-position: top -100px right 0;
+    }
+  
+    .main_product_component_div_butter {
+      background-position: top -100px left -100px;
+    }
+  
+    .main_product_component_div_coco,
+    .main_product_component_div_milk {
+      background-position: top -100px right 0;
+      background-size: 100% auto;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .main_product_component_div_orange {
+      background-position: top 0 right 0;
+    }
+  
+    .main_product_component_div_choklate {
+      background-position: top 0 right 0;
+    }
+  
+    .main_product_component_div_elichi {
+      background-position: top 0 right 0;
+    }
+  
+    .main_product_component_div_butter {
+      background-position: top 0 left 0;
+    }
+  
+    .main_product_component_div_coco,
+    .main_product_component_div_milk {
+      background-position: top 0 right 0;
+      background-size: cover;
+    }
+  }
+  

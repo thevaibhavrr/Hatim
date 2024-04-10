@@ -25,11 +25,11 @@ function RightProductImages ({ left , right, main , flavour } ) {
                         <img src={ right} alt='left' className='img-fluid right_side_top_product_image ' />
                     </div>
                     <div>
-                        <img src={ main } alt='left' className='main_orange_center_image ' />
+                        <img src={ main } alt='left' className='img-fluid  main_orange_center_image ' />
                     </div>
 
                     <div className='right_product_image' >
-                        <img src={ left } alt='left' className='right_side_top_product_image ' />
+                        <img src={ left } alt='left' className='img-fluid right_side_top_product_image ' />
                     </div>
                     </div>
                     {/* right image */}

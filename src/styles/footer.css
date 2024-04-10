@@ -141,6 +141,7 @@
     }
     .footer_hading {
       letter-spacing: 1px;
+      text-wrap: wrap;
     }
     .footer_options {
       font-weight: 400;
