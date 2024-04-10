@@ -46,7 +46,7 @@ function Testimonial() {
       user: fistuser,
       message:
         " Hamis Biscuits are a taste revelation! Butter Bisk melts in your mouth, Coconut Crunchy is a delightful texture blend, and Black Moment satisfies chocolate cravings. The new launches-Spin Elaichi, Spin Orange, and Spin Chocolate-are pure joy in every bite!  ",
-      name: "Ramesh Kumar",
+      name: "Neeta Singh",
       proffetion: "Constrution Contractor",
     },
     {
