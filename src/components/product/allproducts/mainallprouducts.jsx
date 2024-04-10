@@ -39,6 +39,7 @@ import rightChocolate from "../../../Images/Product/left images/Chocolate right.
 function Mainallprouducts() {
     return (
         <div>
+            
              <div className='main_product_component_div_chocolate' >'
                 {/* Chocolate */}
                 <LeftProductImages left={leftChocolate} right={rightChocolate} main={mainChocolate} flavour={"CHOCOLATE"} price={5}/>
@@ -67,6 +68,8 @@ function Mainallprouducts() {
             {/* milk */}
             <LeftProductImages left={leftMilk} right={rightMilk} main={mainMilk} flavour={"MILK BISK"} price={5}/>
             </div>
+
+
         </div>
     )
 }

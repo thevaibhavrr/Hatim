@@ -137,7 +137,11 @@ function Footer() {
                 />
               </div>
 
-              <div className="footer_hading">+91-9815823713</div>
+              <div className="footer_hading">
+              9654524000
+              <br/>
+08847328492
+              </div>
             </div>
           </div>
         </div>

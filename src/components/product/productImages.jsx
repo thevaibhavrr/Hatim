@@ -1,5 +1,4 @@
-import React,{useRef , useEffect} from 'react'
-import gsap from 'gsap';
+import React from 'react'
 import "../../styles/product/ProductImages.css"
 import location from "../../Images/Product/location_icon.png"
 function RightProductImages({ left, right, main, flavour, price, secondprice }) {
