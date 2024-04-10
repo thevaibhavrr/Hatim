@@ -122,8 +122,8 @@ function Banner() {
             src={BannerImage}
             alt="First slide"
             className="home_page_banner_image"
-            initial={{ opacity: 0, scale: 0.5 }} // Initial state (hidden and scaled down)
-            animate={{ opacity: 1, scale: 1 }} // Animation when component mounts
+            initial={{ opacity: 0, scale: 0.5 }}
+            animate={{ opacity: 1, scale: 1 }} 
             transition={{ duration: 2 }} // Animation duration
           />
         </Carousel.Item>
@@ -132,22 +132,11 @@ function Banner() {
             src={BannerSecondImage}
             alt="Second slide"
             className="home_page_banner_image"
-            initial={{ opacity: 0, scale: 0.5 }} // Initial state (hidden and scaled down)
-            animate={{ opacity: 1, scale: 1 }} // Animation when component mounts
-            transition={{ duration: 2 }} // Animation duration
+            initial={{ opacity: 0, scale: 0.5 }} 
+            animate={{ opacity: 1, scale: 1 }} 
+            transition={{ duration: 2 }} 
           />
         </Carousel.Item>
-        <Carousel.Item>
-          <motion.img
-            src={BannerImage}
-            alt="Third slide"
-            className="home_page_banner_image"
-            initial={{ opacity: 0, scale: 0.5 }} // Initial state (hidden and scaled down)
-            animate={{ opacity: 1, scale: 1 }} // Animation when component mounts
-            transition={{ duration: 2 }} // Animation duration
-          />
-        </Carousel.Item>
-        {/* Add more Carousel.Items for additional slides */}
       </Carousel>
     </div>
   );

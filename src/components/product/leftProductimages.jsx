@@ -7,7 +7,10 @@ function LeftProductImages({ left, right, main, flavour, price, secondprice }) {
             {/* orange */}
             <div className='main_product_images_parant_div_left_product' >
                 {/* text */}
-                <div className='main_product_text_div_section' >
+                <div className='main_product_text_div_section' data-aos="zoom-in"
+            data-aos-offset="200"
+            data-aos-delay="800"
+            data-aos-duration="1000">
                     <div className='image_text_products_red_color text-uppercase' > hamis {flavour} </div>
                     <div className='image_text_products_red_color_bottom_section' >
                         <div>
@@ -26,7 +29,10 @@ function LeftProductImages({ left, right, main, flavour, price, secondprice }) {
                     </div>
                 </div>
                 {/* image */}
-                <div className='product_images_main_div' >
+                <div className='product_images_main_div' data-aos="zoom-in"
+            data-aos-offset="200"
+            data-aos-delay="800"
+            data-aos-duration="1000">
                     {/* center main image */}
                     <div className='main_orange_center_image_div' >
                         {/* left image */}
