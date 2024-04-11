@@ -36,6 +36,8 @@ import rightMilk from "../../../Images/Product/left images/milk right.png"
 import mainChocolate from "../../../Images/Product/left images/chocolate Biscuit.png"
 import leftChocolate from "../../../Images/Product/left images/Chocolate left.png"
 import rightChocolate from "../../../Images/Product/left images/Chocolate right.png"
+
+
 function Mainallprouducts() {
     return (
         <div>

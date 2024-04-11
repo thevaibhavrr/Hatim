@@ -5,11 +5,14 @@ import BestSallerImage from "../../../Images/About/Best Seller.png";
 import CookieImage from "../../../Images/About/Cookie.png";
 import GiftImage from "../../../Images/About/Wedding Gift.png";
 import LineImage from "../../../Images/About/Line 5.png";
+// import LocomotiveScroll from 'locomotive-scroll';
+
 
 function CompanyDetails() {
+  // const locomotiveScroll = new LocomotiveScroll();
   return (
     <>
-      <div className="company_details_top_main_div">
+      <div className="company_details_top_main_div" >
         {/* heading */}
         <div>
           <div className="founder_name_div" >MR. VARINDER SINGH.</div>

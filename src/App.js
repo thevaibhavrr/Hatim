@@ -9,6 +9,8 @@ import About from "./pages/About";
 import "animate.css"; 
 import ContactUs from "./pages/ContactUs";
 import Product from "./pages/Product";
+import Anime from "./pages/ani";
+
 
 
 function App() {
@@ -23,6 +25,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/ContactUs" element={<ContactUs />} />
         <Route path="/product" element={<Product />} />
+        <Route path="/ann" element={<Anime />} />
       </Routes>
       <Footer />
     </div>

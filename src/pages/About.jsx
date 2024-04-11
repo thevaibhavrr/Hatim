@@ -8,7 +8,7 @@ function About() {
   return (
     <div>
       <ImagesectionAbout/>
-      <MainAboutBG/>
+      <MainAboutBG   />
       <History/>
       {/* <GoofLife/> */}
     </div>
