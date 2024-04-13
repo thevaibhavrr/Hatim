@@ -72,9 +72,8 @@ function BiteIntotext() {
 
     return (
         <div className='main_bite_intotext'>
-            <motion.div key={key} initial={{ width: "550px" , x: "-100%" }} animate={{ width: "100%" , x: 0 }} transition={{ duration: 1.9 }} className="bite_intotext_section text-uppercase">
-                bite into <motion.span key={key} className='text_list_bite' >{texts[currentTextIndex]}</motion.span>
-                {/* bite into <motion.span key={key} className='text_list_bite'  >vai bhav</motion.span> */}
+            <motion.div key={key} initial={{ width: "550px" , x: "-100%" }} animate={{ width: "100%" , x: 0 }} transition={{ duration: 1.9  }}  className="bite_intotext_section text-uppercase">
+                bite into <span key={key} className='text_list_bite' >{texts[currentTextIndex]}</span>
             </motion.div>
         </div>
     );

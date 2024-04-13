@@ -1,0 +1,40 @@
+.video-container {
+    width: 100%;
+    /* padding-top: 50px; */
+    padding: 10px 200px;
+    background: var(--gay-main-bg-color);
+    height: 80vh;
+    /* margin: 100px; */
+  }
+  .yout_video_iframe {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background: var(--main-red-color);
+    border-radius: 30px;
+    border: none;
+  }
+  
+  @media (max-width: 678px) {
+    .video-container {
+      padding: 20px 100px;
+      height: 50vh;
+    }
+    .yout_video_iframe {
+      width: 100%;
+      height: 100%;
+      padding: 10px;
+    }
+  }
+  @media (max-width: 500px) {
+    .video-container {
+      padding: 20px 70px;
+      height: 50vh;
+    }
+    .yout_video_iframe {
+      width: 100%;
+      height: 100%;
+      padding: 10px;
+    }
+  }
+  
