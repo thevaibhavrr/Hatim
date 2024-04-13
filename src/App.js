@@ -10,6 +10,7 @@ import "animate.css";
 import ContactUs from "./pages/ContactUs";
 import Product from "./pages/Product";
 import Anime from "./pages/ani";
+import { AnimatePresence } from 'framer-motion';
 
 
 
@@ -20,6 +21,7 @@ function App() {
   return (
     <div>
       <Header />
+      <AnimatePresence>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -27,6 +29,7 @@ function App() {
         <Route path="/product" element={<Product />} />
         <Route path="/ann" element={<Anime />} />
       </Routes>
+      </AnimatePresence>
       <Footer />
     </div>
   );

@@ -1,6 +1,7 @@
 import React from 'react'
 import ContactBanner from '../components/Contact/ContactBanner'
 import MainContactBg from '../components/Contact/BgSection/MainContactBg'
+import Transtion from '../transation'
 
 function ContactUs() {
   return (
@@ -11,4 +12,4 @@ function ContactUs() {
   )
 }
 
-export default ContactUs
+export default Transtion(ContactUs)

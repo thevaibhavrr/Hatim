@@ -4,6 +4,7 @@ import OurStory from '../components/Home/ourStory'
 import MainProduct from '../components/Home/Products/mainProduct'
 import Testimonial from '../components/Home/testimonial'
 import YTVideo from '../components/Home/video'
+import Transtion from '../transation'
 
 function Home() {
   return (
@@ -17,4 +18,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Transtion(Home)

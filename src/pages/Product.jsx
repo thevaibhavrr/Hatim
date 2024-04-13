@@ -2,6 +2,7 @@ import React from 'react'
 import ProductBanner from '../components/product/ProductBanner'
 import BiteIntotext from '../components/product/biteIntotext'
 import Mainallprouducts from '../components/product/allproducts/mainallprouducts'
+import Transtion from '../transation'
 
 function Product() {
   return (
@@ -14,4 +15,4 @@ function Product() {
   )
 }
 
-export default Product
+export default Transtion(Product)
