@@ -147,9 +147,9 @@ function Banner() {
                 src={item.image}
                 alt="banner"
                 className="home_page_banner_image"
-                initial={{ opacity: 0, scale: 0.5 , rotate: 0 }}
-                animate={{ opacity: 1, scale: 1  , rotate: 20 }}
-                transition={{ duration: 2.6 , repeatType: "reverse", repeat: Infinity}} 
+                // initial={{ opacity: 0, scale: 0.5 , rotate: 0 }}
+                // animate={{ opacity: 1, scale: 1  , rotate: 20 }}
+                // transition={{ duration: 2.6 , repeatType: "reverse", repeat: Infinity}} 
               />
             </Carousel.Item>
           ))
