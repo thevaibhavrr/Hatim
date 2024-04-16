@@ -5,6 +5,7 @@ import BestSallerImage from "../../../Images/About/Best Seller.png";
 import CookieImage from "../../../Images/About/Cookie.png";
 import GiftImage from "../../../Images/About/Wedding Gift.png";
 import LineImage from "../../../Images/About/Line 5.png";
+import {motion} from 'framer-motion'
 // import LocomotiveScroll from 'locomotive-scroll';
 
 
@@ -52,13 +53,18 @@ function CompanyDetails() {
             <div 
              data-aos="flip-left"
              data-aos-offset="200"
-             data-aos-delay="800"
+             data-aos-delay="0"
              data-aos-duration="1000"
             >
-              <img
+              <motion.img
                 src={BestSallerImage}
                 alt="Logos"
                 className="company_details_images"
+                initial={{ scale: 0, opacity: 0, y: -300 }}
+                whileInView={{ scale: 1, opacity: 1, y: 0, }}
+                transition={{ duration: 1, delay: 1.3 }}
+        viewport={{ once: true }}
+
               />
             </div>
             <div 
@@ -77,13 +83,18 @@ function CompanyDetails() {
             <div
              data-aos="flip-left"
              data-aos-offset="200"
-             data-aos-delay="800"
+             data-aos-delay="0"
              data-aos-duration="1000"
             >
-              <img
+              <motion.img
                 src={CookieImage}
                 alt="Logos"
                 className="company_details_images"
+                initial={{ scale: 0, opacity: 0, y: -400 }}
+                whileInView={{ scale: 1, opacity: 1, y: 0, }}
+                transition={{ duration: 1, delay: 1.3 }}
+        viewport={{ once: true }}
+
               />
             </div>
             <div
@@ -102,13 +113,18 @@ function CompanyDetails() {
             <div
              data-aos="flip-left"
              data-aos-offset="200"
-             data-aos-delay="800"
+             data-aos-delay="0"
              data-aos-duration="1000"
             >
-              <img
+              <motion.img
                 src={GiftImage}
                 alt="Logos"
                 className="company_details_images"
+                initial={{ scale: 0, opacity: 0, y: -400 }}
+                whileInView={{ scale: 1, opacity: 1, y: 0, }}
+                transition={{ duration: 1, delay: 1.3 }}
+        viewport={{ once: true }}
+
               />
             </div>
           </div>

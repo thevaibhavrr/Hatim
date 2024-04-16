@@ -111,32 +111,50 @@ import "../../styles/Home/Banner.css";
 import BannerImage from "../../Images/Home/Hamis_Cover1 1.png";
 // import BannerSecondImage from "../../Images/Home/your_banner_second_image.png";
 import BannerSecondImage from "../../Images/Home/secondBanner.png";
+import BannerThirdImage from "../../Images/Home/Bannerthird.jpg";
+import BannerFourthImage from "../../Images/Home/bannerFourth.jpg";
 
 
 function Banner() {
+
+  const Banner = [
+    {
+      id: 1,
+      image: BannerImage
+    },
+    {
+      id: 2,
+      image: BannerSecondImage
+    },
+    {
+      id: 3,
+      image: BannerThirdImage
+    },
+    {
+      id: 4,
+      image: BannerFourthImage
+    }
+  ]
+
   return (
     <div className="main_banner_div">
-      <Carousel>
-        <Carousel.Item>
-          <motion.img
-            src={BannerImage}
-            alt="First slide"
-            className="home_page_banner_image"
-            initial={{ opacity: 0, scale: 0.5 }}
-            animate={{ opacity: 1, scale: 1 }} 
-            transition={{ duration: 2 }} // Animation duration
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <motion.img
-            src={BannerSecondImage}
-            alt="Second slide"
-            className="home_page_banner_image"
-            initial={{ opacity: 0, scale: 0.5 }} 
-            animate={{ opacity: 1, scale: 1 }} 
-            transition={{ duration: 2 }} 
-          />
-        </Carousel.Item>
+      <Carousel fade  >
+        {
+          Banner.map((item) => (
+            <Carousel.Item>
+              <motion.img
+                key={item.id}
+                src={item.image}
+                alt="banner"
+                className="home_page_banner_image"
+                initial={{ opacity: 0, scale: 0.5 , rotate: 0 }}
+                animate={{ opacity: 1, scale: 1  , rotate: 20 }}
+                transition={{ duration: 2.6 , repeatType: "reverse", repeat: Infinity}} 
+              />
+            </Carousel.Item>
+          ))
+        }
+
       </Carousel>
     </div>
   );
