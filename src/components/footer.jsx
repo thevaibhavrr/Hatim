@@ -140,7 +140,7 @@ function Footer() {
               <div className="footer_hading">
               9654524000
               <br/>
-08847328492
+8847328492
               </div>
             </div>
           </div>

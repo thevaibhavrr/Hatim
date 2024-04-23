@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, {  useState } from 'react'
 import "../../styles/product/ProductImages.css"
 import { motion } from "framer-motion";
 import location from "../../Images/Product/location_icon.png"

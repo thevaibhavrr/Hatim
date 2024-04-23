@@ -1,5 +1,5 @@
 import React from "react";
-import bannerImage from "../../Images/ContactUs/Contact_us_banner.png";
+import bannerImage from "../../Images/ContactUs/Contact Us banner.jpg";
 import "../../styles/Contact/ContactBanner.css";
 function ContactBanner() {
   return (
