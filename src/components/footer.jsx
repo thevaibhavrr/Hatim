@@ -31,35 +31,44 @@ function Footer() {
               <div className="socail_media_icons_footer_div"  >
                 {/* 1 */}
                 <div>
+                  <Link to={"https://www.facebook.com/hamisbiscuits/"}>
                   <img
                     src={Facebook}
                     alt="icon"
                     className="img-fluid footer_copany_icon_images"
-                  />
+                    />
+                    </Link>
                 </div>
                 {/* 2 */}
                 <div>
+                <Link to={"https://www.instagram.com/hamis_biscuits/"}>
+
                   <img
                     src={Instagram}
                     alt="icon"
                     className="img-fluid footer_copany_icon_images"
                   />
+                    </Link>
+
                 </div>
                 {/* 3 */}
-                <div>
+                {/* <div>
                   <img
                     src={TwitterX}
                     alt="icon"
                     className="img-fluid footer_copany_icon_images"
                   />
-                </div>
+                </div> */}
                 {/* 4 */}
                 <div>
+                <Link to={"https://www.youtube.com/channel/UCvD3y6USLa2WYLfO9gHQ_Vg"}>
+
                   <img
                     src={YouTube}
                     alt="icon"
                     className="img-fluid footer_copany_icon_images"
                   />
+                  </Link>
                 </div>
               </div>
             </div>
